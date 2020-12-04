@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.SearchFoodImgMapper">
+
+        <select id="getSearchFoodImg" resultType="com.pojo.SearchFoodImg" parameterType="_int">
+            select * from searchfoodimg
+            where cityId = #{cityId}
+        </select>
+
+        <select id="getCollectFoodById" parameterType="_int" resultType="com.pojo.SearchFoodImg">
+             select * from searchfoodimg
+             where siteId = #{siteId}
+        </select>
+</mapper>

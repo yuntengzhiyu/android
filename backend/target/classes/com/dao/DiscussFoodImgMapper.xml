@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.DiscussFoodImgMapper">
+    <select id="getDiscussFoodImg" resultType="com.pojo.DiscussFoodImg">
+        select id, title, imgPath, material
+        from discussfoodimg
+    </select>
+
+    <select id="getDiscussFoodImgInfo" resultType="com.pojo.DiscussFoodImg">
+        select id, title, otherpic, otherword
+        from discussfoodimg
+        where id = #{id}
+    </select>
+</mapper>

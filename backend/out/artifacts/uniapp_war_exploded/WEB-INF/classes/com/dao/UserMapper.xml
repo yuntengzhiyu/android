@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.UserMapper">
+
+
+    <select id="getUsername"  resultType="com.pojo.User">
+        select * from user
+        where username = #{username}
+    </select>
+
+    <insert id="rigister" parameterType="com.pojo.User">
+        insert into user(username, password, collectsite, collectfood)
+        values(#{username}, #{password}, '' , '')
+    </insert>
+
+    <select id="login" parameterType="com.pojo.User" resultType="com.pojo.User">
+        select * from user
+        where username= #{username} AND password= #{password}
+    </select>
+
+    <update id="Addsite" parameterType="map">
+        UPDATE user
+        SET collectsite = concat(#{siteId}, collectsite)
+        WHERE id = #{userId}
+    </update>
+
+    <select id="getCollect" parameterType="_int" resultType="string">
+        select collectsite from user
+        where id = #{id}
+    </select>
+
+    <update id="setCollect">
+        update user
+        set collectsite = #{collectsite}
+        where id = #{userId}
+    </update>
+
+
+    <select id="findUsername" resultType="string">
+        select username from user
+        where id = #{userId}
+    </select>
+
+    <select id="getCollectFood" parameterType="_int" resultType="string">
+        select collectfood from user
+        where id = #{id}
+    </select>
+
+    <update id="setCollectFood">
+        update user
+        set collectfood = #{collectfood}
+        where id = #{userId}
+    </update>
+
+
+    <update id="Addfood" parameterType="map">
+        UPDATE user
+        SET collectfood = concat(#{siteId}, collectfood)
+        WHERE id = #{userId}
+    </update>
+
+
+</mapper>

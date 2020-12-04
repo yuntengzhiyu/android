@@ -1,0 +1,1 @@
+<view><view class="content _div"><block wx:for="{{info}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="item _div"><image src="{{item.otherImg}}" alt class="_img"></image><view class="_h4">{{item.otherTitle}}</view><label class="_span">{{item.otherScore+"分"}}</label><button>已经卖完</button></view></block></view></view>

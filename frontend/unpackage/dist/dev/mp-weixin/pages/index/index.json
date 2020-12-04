@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "CLOUD TRAVEL",
+  "navigationBarBackgroundColor": "#EEEEEE",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar"
+  }
+}

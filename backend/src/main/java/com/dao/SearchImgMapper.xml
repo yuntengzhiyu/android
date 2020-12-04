@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.SearchImgMapper">
+
+
+    <select id="getSearchImg" resultType="com.pojo.SearchImg" parameterType="_int">
+        select id, cityName, siteName, commentsNum, commentsPoint, sitePic
+        from searchimg
+        where cityId = #{cityId}
+    </select>
+
+    <select id="getSearchImgInfo" resultType="com.pojo.SearchImg">
+        select id, siteName, siteAddress, sitePhone, sitePic, siteIntro, sitePolicy, othersitePic, othersiteName, othersiteDis
+        from searchimg
+        where id = #{id}
+    </select>
+
+
+    <select id="getCollectSiteById" resultType="com.pojo.Collectsite">
+        select id, siteName, commentsNum, commentsPoint , sitePic
+        from searchimg
+        where id = #{id}
+    </select>
+</mapper>

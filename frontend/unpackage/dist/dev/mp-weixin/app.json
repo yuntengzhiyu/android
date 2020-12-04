@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/food/food",
+    "pages/info/info",
+    "pages/discussImgInfo/discussImgInfo",
+    "pages/SearchImgInfo/SearchImgInfo",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/mycollectsite/mycollectsite",
+    "pages/DisplayFoodImgInfo/DisplayFoodImgInfo",
+    "pages/discussfoodimginfo/discussfoodimginfo",
+    "pages/mycollectfood/mycollectfood"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "CLOUD TRAVEL",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#DE533A",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "景点",
+        "iconPath": "static/site.png",
+        "selectedIconPath": "static/site.png"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "text": "美食",
+        "iconPath": "static/food.png",
+        "selectedIconPath": "static/food.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/nav3.png",
+        "selectedIconPath": "static/nav3.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap42.json"
+}
