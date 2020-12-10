@@ -8,7 +8,7 @@
 
 ​    本系统的功能模块图如下：
 
-![1607599166039](http://img.shenmafuyun.xyz/0.jpg)
+![1607599166039](http://img1.shenmafuyun.xyz/wps1.jpg)
 
 主要功能如下：
 
@@ -38,7 +38,7 @@
 
 有关景点的轮播图展示，销售情况，文章系列\*
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps1.jpg) 
+![img](http://img1.shenmafuyun.xyz/wps1.jpg) 
 
 
 
@@ -46,7 +46,7 @@
 
 对景点根据城市名称进行查询
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps2.jpg) 
+![img](http://img1.shenmafuyun.xyz/wps2.jpg) 
 
 
 
@@ -54,7 +54,7 @@
 
 查看景点的详细信息
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps3.jpg)![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps4.jpg) 
+![img](http://img1.shenmafuyun.xyz/wps3.jpg)![img](http://img1.shenmafuyun.xyz/wps4.jpg) 
 
 图1. 景点详细信息图
 
@@ -64,19 +64,19 @@
 
 查看景点的可视化分析
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps5.jpg) 
+![img](http://img1.shenmafuyun.xyz/wps5.jpg) 
 
 
 
 有关美食的轮播图展示，美食做法步骤
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps6.jpg) 
+![img](http://img1.shenmafuyun.xyz/wps6.jpg) 
 
 
 
 根据城市名搜索相关美食地域
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps7.jpg) 
+![img](http://img1.shenmafuyun.xyz/wps7.jpg) 
 
 
 
@@ -84,5 +84,5 @@
 
 查看餐厅的可视化分析
 
-![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps8.jpg)![img](file:///C:\Users\Dell\AppData\Local\Temp\ksohtml26576\wps9.jpg) 
+![img](http://img1.shenmafuyun.xyz/wps8.jpg)![img](http://img1.shenmafuyun.xyz/wps9.jpg) 
 
