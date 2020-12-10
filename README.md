@@ -8,7 +8,7 @@
 
 ​    本系统的功能模块图如下：
 
-![1607599166039](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\1607599166039.png)
+![1607599166039](http://img.shenmafuyun.xyz/0.jpg)
 
 主要功能如下：
 
