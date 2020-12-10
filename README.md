@@ -8,7 +8,7 @@
 
 ​    本系统的功能模块图如下：
 
-![1607599166039](http://img1.shenmafuyun.xyz/wps1.jpg)
+![1607599166039](http://img1.shenmafuyun.xyz/gongneng.png)
 
 主要功能如下：
 
